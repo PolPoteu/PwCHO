@@ -1,4 +1,5 @@
-# Crud
+# CRUD
+This project is make for pass subject called "Przetwarzanie w Chmurach Obliczeniowych".
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
 
