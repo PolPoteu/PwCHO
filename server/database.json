@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "no coś",
+      "body": "ciekawe",
+      "id": 101
+    },
+    {
+      "title": "Cześć wszystkim",
+      "body": "To jest pierwszy post zaraz po betatestowym coś coś :) Witam Angular żyje, API również <3",
+      "id": 102
+    }
+  ]
+}
