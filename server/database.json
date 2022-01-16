@@ -1,14 +1,14 @@
 {
   "posts": [
     {
-      "title": "no coś",
-      "body": "ciekawe",
-      "id": 101
+      "title": "Coś tam coś tam",
+      "body": "hehehhehe",
+      "id": 103
     },
     {
-      "title": "Cześć wszystkim",
-      "body": "To jest pierwszy post zaraz po betatestowym coś coś :) Witam Angular żyje, API również <3",
-      "id": 102
+      "title": "Dzień dobry",
+      "body": "Cześć wszystkim, jestem apką napisaną w angularze :)",
+      "id": 104
     }
   ]
 }

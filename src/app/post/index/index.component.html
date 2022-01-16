@@ -17,23 +17,23 @@
       <td>{{ post.title }}</td>
       <td>{{ post.body }}</td>
       <td>
-        <a
-          href="#"
-          [routerLink]="['/post/', post.id, 'view']"
-          class="btn btn-info"
-          >View</a
-        >
-        <a
-          href="#"
-          [routerLink]="['/post/', post.id, 'edit']"
-          class="btn btn-primary"
-          >Edit</a
-        >
-        <button
-          type="button"
-          (click)="deletePost(post.id)"
-          class="btn btn-danger"
-        >
+        <button>
+          <a
+            href="#"
+            [routerLink]="['/post/', post.id, 'view']"
+            class="btn btn-info"
+            >View</a
+          >
+        </button>
+        <button>
+          <a
+            href="#"
+            [routerLink]="['/post/', post.id, 'edit']"
+            class="btn btn-primary"
+            >Edit</a
+          >
+        </button>
+        <button mat-flat-button color="warn" (click)="deletePost(post.id)">
           Delete
         </button>
       </td>
