@@ -3,12 +3,13 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { Post } from './post';
+import * as post from './post.json';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PostService {
-  private apiURL = 'https://jsonplaceholder.typicode.com';
+  private apiURL = post;
 
   httpOptions = {
     headers: new HttpHeaders({
